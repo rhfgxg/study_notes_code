@@ -1,5 +1,6 @@
 cmake是用来管理c++项目的一个项目管理文件。文件格式为 .txt
 文件示例
+```
 # 指定 CMake 的最低版本要求(3.10)
 cmake_minimum_required(VERSION 3.10)
 
@@ -54,3 +55,4 @@ enable_testing()
 
 # 添加简单测试
 add_test(NAME SimpleTest COMMAND ${PROJECT_NAME})
+```
